@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1 style="text-align:center;color:white;font-family:STSong">视频上传、切分</h1>
+<style>
+h3 {font-size: 20px;color: white; display : inline ;font-family:STSong}
+      .text {
+                text-align:center;
+                height: 16px;
+                 width: 120px;
+                 font-family:STSong;
+                }
+      .submit {
+                height:30px;
+                width:200px;
+                background-color:white;
+                text-align:center;
+                }
+      body{
+    background-image: url(static/2.jpg);
+    background-color: rgba(0, 0, 0, 0.1);
+    background-size: cover;
+    filter:alpha(opacity=60);-moz-opacity:0.6;opacity:0.60;
+  }
+</style>
+<br>
+<center>
+    <br><br><br><br>
+    <form action="/cut">
+        <h3>输入你的路径名前缀：</h3><input class='text' type="text" name="wanted" value="" default="">
+        <input class="submit" type="submit" value="上传并切分视频"><br><br><br><br><br><br><br><br><br><br><br><br>
+    </form>
+    <form action="/">
+        <button type="submit" class ="submit">返回主菜单</button><br>
+    </form>
+</center>
+
+</body>
+</html>

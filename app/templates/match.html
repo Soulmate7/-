@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1 style="text-align:center;color:white;font-family:STSong">球员识别</h1>
+<center>
+<form action="/">
+        <button type="submit" class ="submit">返回主菜单</button><br>
+    </form>
+</center>
+<style>
+h3 {font-size: 20px;color: white; display : inline}
+      .text {
+                text-align:center;
+<!--                height: 16px;-->
+<!--                 width: 120px;-->
+                 font-family:STSong;
+                }
+      .submit {
+                height:30px;
+                width:200px;
+                background-color:white;
+                text-align:center;
+                }
+      body{
+    background-image: url(static/2.jpg);
+    background-color: rgba(0, 0, 0, 0.1);
+    background-size: cover;
+    filter:alpha(opacity=60);-moz-opacity:0.6;opacity:0.60;
+  }
+  .alignright {
+display : inline ;
+float : right ;
+}
+</style>
+<br>
+
+<center>
+    <img width="25%" height="25%" src="{{outface}}" /></center>
+
+<center>
+    <h3 class="text">{{result}}</h3><br><br>
+    <textarea readonly='readonly' class="text">球员:{{rs.name}}</textarea><br>
+    <textarea readonly='readonly' class="text">年龄:{{rs.age}}</textarea><br>
+    <textarea readonly='readonly' class="text">国家:{{rs.nationality}}</textarea><br>
+    <textarea readonly='readonly' class="text">身高(cm):{{rs.height}}</textarea><br>
+
+</center>
+<script>
+    var wanted={{number}};
+<!--    document.getElementById("test").value = wanted;-->
+<!--     function testclick(name)-->
+<!--    {-->
+<!--        window.open("{{ url_for("face.match") }}","_self");-->
+<!--    }-->
+</script>
+    <form action="/match" >
+        <center>
+<!-- <input type="submit"  class ="submit"  value={{number}} name='wanted'></input>-->
+    <button type="submit" class ="submit"  value={{number}} name='wanted'>这是高手👍</button><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</center>
+<!--    <input type="hidden"  id="test" name=wanted>-->
+
+<!--        <button onclick="testclick()" name="wanted">点击我啊</button>-->
+    </form>
+
+</body>
+</html>
