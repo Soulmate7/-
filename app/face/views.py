@@ -1,14 +1,14 @@
 import cv2
 import face_recognition
 import os
-import subprocess
-import matplotlib.pyplot as plt
+from werkzeug.utils import secure_filename
 from flask import Flask,render_template,request,g
 from . import face
 from ..model import player
 
-os.chdir(r'C:\Users\Bryce gu\Desktop\媒体大数据实例分析\欧洲杯球员识别\app')
-number="1";
+os.chdir(r'/Users/zengrui/Desktop/媒体大数据/欧洲杯球员识别/app')
+number="1"
+
 
 def dHash(img):
     # 缩放8*8
@@ -44,11 +44,17 @@ def go():
 def index():
     return render_template('index.html')
 
-@face.route('/cut')
+@face.route('/cut',methods=['GET', 'POST'])
 def cut():
-    wanted = request.args.get("wanted", type=str)
-    v_path='static/'+wanted+'.mp4'
-    #v_path='static/players.mp4'
+    #wanted = request.args.get("wanted", type=str)
+    #v_path='static/'+wanted+'.mp4'
+    if request.method == 'GET':
+        return render_template('cut.html')
+    else:
+        f = request.files['file']
+        filename = secure_filename(f.filename)
+        f.save(os.path.join('static/video/', filename))
+    v_path='static/video/'+filename
     image_save='static/image'
     cap=cv2.VideoCapture(v_path)
     frame_count=cap.get(cv2.CAP_PROP_FRAME_COUNT)
@@ -65,12 +71,14 @@ def cut():
             cv2.imwrite('static/image/{}.jpg'.format(j), img)
             img = img2
     cuts = os.listdir(image_save)
+    cuts.remove('.DS_Store')
     cuts.sort(key=lambda x:int(x[:-4]))
     p='static/image'
-    for i in range(len(cuts)):
-        cuts[i]=p+'/'+cuts[i]
-        print(cuts[i])
-    return render_template('cut.html',result='Finish!',cuts=cuts,path=v_path)
+    f_cuts=[p+'/'+cut for cut in cuts]
+    # for i in range(len(cuts)):
+    #     if cut[i].endswith('jpg'):
+    #         cuts[i]=p+'/'+cuts[i]
+    return render_template('cut.html',result='Finish!',cuts=f_cuts,path=v_path)
 
 @face.route('/match')
 def match():

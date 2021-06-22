@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f18dec91-d5b9-4319-9beb-d6f373e36c9c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="JupyterTrust" id="0b77b096-ef35-41c2-840f-6be1f541f5d0" />
+  <component name="ProjectId" id="1uA3XvSk7VXYIF6gPyfToKjbDnt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="欧洲杯球员识别" type="Python.FlaskServer">
+      <module name="欧洲杯球员识别" />
+      <option name="target" value="$PROJECT_DIR$/run.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f18dec91-d5b9-4319-9beb-d6f373e36c9c" name="Default Changelist" comment="" />
+      <created>1624094609752</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624094609752</updated>
+      <workItem from="1624094626935" duration="4282000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1638" height="364" key="GridCell.Tab.0.bottom" timestamp="1624156155438">
+      <screen x="0" y="25" width="1680" height="943" />
+    </state>
+    <state width="1638" height="364" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1624100048124" />
+    <state width="1638" height="364" key="GridCell.Tab.0.bottom/0.25.1680.943@0.25.1680.943" timestamp="1624156155438" />
+    <state width="1638" height="364" key="GridCell.Tab.0.center" timestamp="1624156155435">
+      <screen x="0" y="25" width="1680" height="943" />
+    </state>
+    <state width="1638" height="364" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1624100048123" />
+    <state width="1638" height="364" key="GridCell.Tab.0.center/0.25.1680.943@0.25.1680.943" timestamp="1624156155435" />
+    <state width="1638" height="364" key="GridCell.Tab.0.left" timestamp="1624156155429">
+      <screen x="0" y="25" width="1680" height="943" />
+    </state>
+    <state width="1638" height="364" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1624100048122" />
+    <state width="1638" height="364" key="GridCell.Tab.0.left/0.25.1680.943@0.25.1680.943" timestamp="1624156155429" />
+    <state width="1638" height="364" key="GridCell.Tab.0.right" timestamp="1624156155437">
+      <screen x="0" y="25" width="1680" height="943" />
+    </state>
+    <state width="1638" height="364" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1624100048124" />
+    <state width="1638" height="364" key="GridCell.Tab.0.right/0.25.1680.943@0.25.1680.943" timestamp="1624156155437" />
+    <state width="1638" height="364" key="GridCell.Tab.1.bottom" timestamp="1624156155442">
+      <screen x="0" y="25" width="1680" height="943" />
+    </state>
+    <state width="1638" height="364" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1624100048126" />
+    <state width="1638" height="364" key="GridCell.Tab.1.bottom/0.25.1680.943@0.25.1680.943" timestamp="1624156155442" />
+    <state width="1638" height="364" key="GridCell.Tab.1.center" timestamp="1624156155440">
+      <screen x="0" y="25" width="1680" height="943" />
+    </state>
+    <state width="1638" height="364" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1624100048125" />
+    <state width="1638" height="364" key="GridCell.Tab.1.center/0.25.1680.943@0.25.1680.943" timestamp="1624156155440" />
+    <state width="1638" height="364" key="GridCell.Tab.1.left" timestamp="1624156155439">
+      <screen x="0" y="25" width="1680" height="943" />
+    </state>
+    <state width="1638" height="364" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1624100048125" />
+    <state width="1638" height="364" key="GridCell.Tab.1.left/0.25.1680.943@0.25.1680.943" timestamp="1624156155439" />
+    <state width="1638" height="364" key="GridCell.Tab.1.right" timestamp="1624156155441">
+      <screen x="0" y="25" width="1680" height="943" />
+    </state>
+    <state width="1638" height="364" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1624100048126" />
+    <state width="1638" height="364" key="GridCell.Tab.1.right/0.25.1680.943@0.25.1680.943" timestamp="1624156155441" />
+    <state x="349" y="161" key="SettingsEditor" timestamp="1624098905864">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="349" y="161" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1624098905864" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/$.coverage" NAME="欧洲杯球员识别 Coverage Results" MODIFIED="1624100048107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

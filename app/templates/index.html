@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>球员识别系统</title>
 </head>
 <body>
 <h1 style="text-align:center;color:white;font-family:STSong">视频上传、切分</h1>
@@ -30,8 +30,10 @@ h3 {font-size: 20px;color: white; display : inline ;font-family:STSong}
 <br>
 <center>
     <br><br><br><br>
-    <form action="/cut">
-        <h3>输入你的路径名前缀：</h3><input class='text' type="text" name="wanted" value="" default="">
+    <form action="/cut" method="post" enctype="multipart/form-data">
+        <h3>选择你的视频路径：</h3>
+        <input type="file" name="file" value="" default=""><br><br><br>
+{#        <input class='text' type="text" name="wanted" value="" default="">#}
         <input class="submit" type="submit" value="上传并切分视频"><br><br><br><br><br><br><br><br><br><br><br><br>
     </form>
     <form action="/">

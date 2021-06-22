@@ -4,10 +4,10 @@ db=SQLAlchemy()
 
 def create_app():
     app = Flask(__name__)
-    app.config['SECRET_KEY'] = 'guzehao20000912'
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:guzehao20000912@127.0.0.1:3306/european'
+    app.config['SECRET_KEY'] = 'z1012194891'
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:z1012194891@127.0.0.1:3306/european'
     app.config['SQLALCHEMY_COMMIT_ON_TEARDOWN'] = True
-    flag=0;
+
     db.init_app(app)
 
 
